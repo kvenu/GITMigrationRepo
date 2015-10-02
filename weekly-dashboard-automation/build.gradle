@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.walmart'
+version = '0.0.1-SNAPSHOT'
+
+description = "weekly dashboard"
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
+
+
+
+repositories {
+        
+     mavenLocal()
+}
+dependencies {
+    compile group: 'org.apache.poi', name: 'poi', version:'3.11-beta3'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version:'3.11-beta3'
+    compile group: 'xerces', name: 'xerces', version:'2.4.0'
+    compile group: 'commons-logging', name: 'commons-logging', version:'1.1.1'
+    compile group: 'net.sourceforge.jexcelapi', name: 'jxl', version:'2.6.12'
+    compile group: 'commons-beanutils', name: 'commons-beanutils', version:'1.9.2'
+}

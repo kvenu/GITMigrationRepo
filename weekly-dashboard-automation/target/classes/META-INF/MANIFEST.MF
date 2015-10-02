@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Rsrc-Class-Path: ./ jackson-xc-1.9.2.jar jackson-core-asl-1.9.2.jar je
+ rsey-core-1.11.jar jackson-jaxrs-1.9.2.jar jackson-mapper-asl-1.9.2.j
+ ar jersey-client-1.11.jar
+Class-Path: .
+Rsrc-Main-Class: com.walmart.logistics.smartgate.simulator.Startup
+Main-Class: org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader
+
